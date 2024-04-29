@@ -20,7 +20,6 @@ public class Day2RemoveDuplicateEle {
                     nums[count] = nums [i];
                     count++;
                 }
-
             }
             return count;
         }
