@@ -23,6 +23,9 @@ public class ReverseArray {
             // Storing the elements of the input array in reverse order
             temp[n - i - 1] = array[i];
         }
+
+        String str = "christo";
+        str.toUpperCase();
         // Output
         System.out.println("Reversed Array :" + Arrays.toString(temp));
     }
